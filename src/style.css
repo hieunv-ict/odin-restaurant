@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    margin: 0;
+}
+header{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: stretch;
+    align-items: center;
+    background-color:blanchedalmond;
+    gap: 10px;
+    padding-left: 20px;
+}
+nav{
+    justify-self: end;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    display: flex;
+}
+
+
+li > button{
+    border: none;
+    height: 60px;
+    width: 120px;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+li > button:hover{
+    background-color: chocolate;
+    opacity: 0.5;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/coffe_shop2.webp");
+    background-size: cover;
+    background-color: rgba(0,0,0, 0.4);
+    background-blend-mode: overlay;
+}
+.intro-text{
+    font-size: 2rem;
+    color:antiquewhite;
+    justify-self: center;
+}
+
+.btn{
+    width: 8vw;
+    height: 7vh;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    background-color: chocolate;
+}
+
+#cup-of-coffee{
+    height: 60vh;
+    width: auto;
+}
+
+.info{
+    background-color:bisque;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 50vw;
+}
+.info > h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    font-size: 1.2rem;
+    background-color:chocolate;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+
+
+
+footer{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: burlywood;
+    padding: 30px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+input{
+    width: 20vw;
+    height: 6vh;
+    font-size: 1.5rem;
+    border:none;
+}
+form button{
+    height: 6vh;
+    width: 7vw;
+    border: none;
+    background-color: chocolate;
+    font-size: 1.2rem;
+}
+
+.menu{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.menu > h1{
+    margin-top: 30px;
+}
+
+.menu-section{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.menu-section-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+.menu-section-item > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.menu-section-item > div > *{
+    margin: 0;
+}
+
+.menu-section-item > img{
+    width: 10vw;
+    height: auto;
+    
+}
+
+.order-item-btn{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+}
+
+.price{
+    color: chocolate;
+    font-size: 1.4rem;
+}
+
+p {
+    margin: 0;
+}
+
+#contact > h1{
+    margin: 0;
+    margin-bottom: 10px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: chocolate;
+    border-radius: 10px;
+    border: solid 2px gold;
+    padding: 25px;
+}
+
+.contact-title{
+    margin-top: 50px;
+}
